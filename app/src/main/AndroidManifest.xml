@@ -5,6 +5,7 @@
     package="com.example.facepay">
 
     <uses-permission android:name="android.permission.INTERNET" />
+
     <dist:module dist:instant="true" />
 
     <application
@@ -15,11 +16,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
-        <activity android:name=".Activity.UpiActivity"
-            tools:ignore="InnerclassSeparator">
-
-        </activity>
-        <activity android:name=".Activity.UserAuthActivity"
+        <activity android:name=".Activity.AppAuthReg"></activity>
+        <activity android:name=".Activity.AppAuthActivity" />
+        <activity
+            android:name=".Activity.UpiActivity"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name=".Activity.UserAuthActivity"
             tools:ignore="InnerclassSeparator" />
         <activity
             android:name=".Activity.SplashActivity"

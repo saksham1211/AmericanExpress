@@ -20,7 +20,7 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-   // compile project(name: "razorpay-android-3.8.5", ext: 'aar')
+    // compile project(name: "razorpay-android-3.8.5", ext: 'aar')
 
     implementation 'androidx.appcompat:appcompat:1.0.2'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
