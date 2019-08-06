@@ -18,7 +18,10 @@ allprojects {
     repositories {
         google()
         jcenter()
-        
+        mavenCentral()
+        flatDir {
+            dirs 'libs'
+        }
     }
 }
 

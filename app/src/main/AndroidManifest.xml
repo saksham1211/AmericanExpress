@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.facepay">
 
+    <uses-permission android:name="android.permission.INTERNET" />
     <dist:module dist:instant="true" />
 
     <application
@@ -30,6 +31,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainActivity" />
+
+        <meta-data
+            android:name="com.razorpay.ApiKey"
+            android:value="rzp_live_ILgsfZCZoFIKMb" />
     </application>
 
 </manifest>
