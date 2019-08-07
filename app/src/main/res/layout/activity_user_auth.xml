@@ -1,13 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Activity.UserAuthActivity">
 
+    <ImageView
+        android:id="@+id/PhotoView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="-61dp"
+        android:layout_marginEnd="105dp" />
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/PhotoView"
+        android:layout_marginTop="17dp"
+        android:hint="Enter Name" />
+
+
+    <EditText
+        android:id="@+id/Phone_Number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Name"
+        android:layout_marginTop="46dp"
+        android:hint="Phone Number" />
+
+
     <Button
+        android:id="@+id/Capture"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/Phone_Number"
         android:layout_centerInParent="true"
-        android:onClick="intent"/>
+        android:text="CAPTURE"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="31dp" />
+
+    <Button
+        android:id="@+id/Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Capture"
+        android:text="SUBMIT"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="17dp" />
 </RelativeLayout>
