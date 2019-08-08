@@ -18,6 +18,7 @@ public class SplashActivity extends AppCompatActivity {
         super.onCreate(icicle);
         setContentView(R.layout.activity_splash);
 
+
         SharedPreferences settings  = getSharedPreferences("PREFS",0);
         password = settings.getString("password","");
 
@@ -36,5 +37,15 @@ public class SplashActivity extends AppCompatActivity {
                 }
             }
         }, 1000);
+
+//        new Handler().postDelayed(new Runnable(){
+//            @Override
+//            public void run() {
+//                Intent intent = new Intent(SplashActivity.this, UserAuthActivity.class);
+//                startActivity(intent);
+//                finish();
+//            }
+//        }, 1000);
+
     }
 }
