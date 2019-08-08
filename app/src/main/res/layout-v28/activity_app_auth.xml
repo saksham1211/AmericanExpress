@@ -17,7 +17,7 @@
         android:layout_centerHorizontal="true"/>
     <EditText
         android:layout_width="300dp"
-        android:layout_height="40dp"
+        android:layout_height="wrap_content"
         android:id="@+id/enterpwd"
         android:hint="Enter pin"
         android:singleLine="true"
