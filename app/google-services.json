@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1018744295111",
+    "firebase_url": "https://fir-13d07.firebaseio.com",
+    "project_id": "fir-13d07",
+    "storage_bucket": "fir-13d07.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1018744295111:android:0e6b1ade802106ee",
+        "android_client_info": {
+          "package_name": "com.example.facepay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1018744295111-74u8sisppk0btkda2k72gq7ac4f1kcgv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.facepay",
+            "certificate_hash": "70146f57c0b7d2f5175eb45d0ee7256e0bf9359b"
+          }
+        },
+        {
+          "client_id": "1018744295111-q8v4k94m5ui2lk9b05e6a0h69vtlfjpp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtsiZZoWqLRdlK396NZyb8ZEeFGZ927x4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1018744295111-q8v4k94m5ui2lk9b05e6a0h69vtlfjpp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
